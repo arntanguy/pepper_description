@@ -1,0 +1,10 @@
+
+Package: ros-@ROS_DISTRO@-pepper-description
+Architecture: all
+Section: misc
+Depends: ${misc:Depends},
+         ros-@ROS_DISTRO@-ros-base
+Description: Pepper robot description for mc_rtc (ROS)
+ Data files for environments and robots description for mc_rtc
+ .
+ This package creates symbolic links to the regular package

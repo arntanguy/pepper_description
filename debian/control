@@ -1,0 +1,20 @@
+Source: pepper_description 
+Priority: optional
+Maintainer: Arnaud Tanguy <arn.tanguy@gmail.com>
+Standards-Version: 3.9.5
+Section: misc
+Homepage: https://github.com/jrl-umi3218/pepper_description
+Vcs-git: https://github.com/jrl-umi3218/pepper_description
+Vcs-Browser: https://github.com/jrl-umi3218/pepper_description
+Build-Depends: debhelper (>= 9),
+               cmake
+
+Package: pepper-description 
+Architecture: all
+Section: misc
+Depends: ${misc:Depends}
+Description: Pepper robot description for mc_rtc
+ Data files for the pepper robot description for mc_rtc
+ .
+ This package contains data (meshes, urdf, rsdf and convex files) and
+ CMake config file to help locate the data.
